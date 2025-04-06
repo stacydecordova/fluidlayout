@@ -1,0 +1,64 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Wrap {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.Header {
+    width: 100%;
+    height: 100px; /* Updated header height */
+    background-color: #6A4C9C; /* Purple shade */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    color: white;
+    font-size: 1.5rem;
+}
+
+.WrapMiddle {
+    display: flex;
+    justify-content: space-between; /* Distribute space between columns */
+    align-items: center; /* Vertically align the items */
+    width: 100%;
+    font-size: 0;
+}
+
+.Left,
+.Middle,
+.Right {
+    height: 400px; /* Updated height for left/right columns */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+.Left {
+    background-color: #9B76B3; /* Light purple shade */
+    flex: 1 1 20%; /* Flex properties for left column */
+}
+
+.Middle {
+    background-color: #D1D1D6; /* Light gray */
+    flex: 3 1 68.75%; /* Flex properties for middle column */
+}
+
+.Right {
+    background-color: #9B76B3; /* Light purple shade */
+    flex: 1 1 10.4167%; /* Flex properties for right column */
+}
+
+.Footer {
+    height: 120px; /* Updated footer height */
+    width: 100%;
+    background-color: #4E3D71; /* Dark purple shade */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    color: white;
+    font-size: 1.2rem;
+}
